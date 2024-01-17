@@ -1,5 +1,6 @@
 export const books = [
   {
+    id: 1,
     name: "JavaScript and jQuery",
     author: "John Duckett",
     star: 5,
@@ -10,6 +11,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 2,
     name: "The Catcher in the Rye",
     author: "J.D. Salinger",
     star: 4,
@@ -20,6 +22,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 3,
     name: "To Kill a Mockingbird",
     author: "Harper Lee",
     star: 3,
@@ -30,6 +33,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 4,
     name: "1984",
     author: "George Orwell",
     star: 5,
@@ -40,6 +44,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 5,
     name: "The Great Gatsby",
     author: "F. Scott Fitzgerald",
     star: 3,
@@ -50,6 +55,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 6,
     name: "Pride and Prejudice",
     author: "Jane Austen",
     star: 4,
@@ -60,6 +66,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 7,
     name: "The Hobbit",
     author: "J.R.R. Tolkien",
     star: 4,
@@ -70,6 +77,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 8,
     name: "The Alchemist",
     author: "Paulo Coelho",
     star: 4,
@@ -80,6 +88,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 9,
     name: "Harry Potter and the Sorcerer's Stone",
     author: "J.K. Rowling",
     star: 4,
@@ -90,6 +99,7 @@ export const books = [
     isFavourite: false,
   },
   {
+    id: 10,
     name: "The Da Vinci Code",
     author: "Dan Brown",
     star: 4,

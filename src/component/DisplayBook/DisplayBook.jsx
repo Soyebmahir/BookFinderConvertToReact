@@ -2,13 +2,13 @@
 import { books } from "../../Utils/books";
 import BookCard from "./BookCard/BookCard";
 
-const DisplayBook = ({ allBooks }) => {
+const DisplayBook = ({ allBooks, onFav }) => {
   // const allBooks = books;
 
   return (
     <div className="container mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {allBooks?.map((book) => (
-        <BookCard key={book.name} book={book}></BookCard>
+        <BookCard key={book.name} book={book} onFav={onFav}></BookCard>
       ))}
 
       {/* <div className="space-y-3">

@@ -2,7 +2,7 @@
 import SearchBar from "./SearchBar/SearchBar";
 import Sorting from "./Sorting/Sorting";
 
-const Header = ({ searchOn }) => {
+const Header = ({ searchOn, onSort }) => {
   return (
     <header className="mb-8 lg:mb-10 mx-auto max-w-7xl">
       <div className="mx-auto flex items-end justify-between max-md:max-w-[95%] max-md:flex-col max-md:items-start max-md:space-y-4">
@@ -18,11 +18,12 @@ const Header = ({ searchOn }) => {
         <div className="flex items-stretch space-x-3">
           <Sorting
             sortingOptions={[
-              " Name (A-Z)",
+              "Name (A-Z)",
               "Name (Z-A)",
               "Publication Year (Oldest)",
               "Publication Year (Newest)",
             ]}
+            onSort={onSort}
           ></Sorting>
         </div>
       </div>
