@@ -1,13 +1,13 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { books } from "../../Utils/books";
 import BookCard from "./BookCard/BookCard";
 
-const DisplayBook = () => {
-  const allBooks = books;
+const DisplayBook = ({ allBooks }) => {
+  // const allBooks = books;
 
   return (
     <div className="container mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-      {allBooks.map((book) => (
+      {allBooks?.map((book) => (
         <BookCard key={book.name} book={book}></BookCard>
       ))}
 

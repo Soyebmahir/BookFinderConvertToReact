@@ -1,4 +1,14 @@
-const SearchBar = () => {
+/* eslint-disable react/prop-types */
+import { useState } from "react";
+
+const SearchBar = ({ searchOn }) => {
+  const [searchText, setSearchText] = useState(null);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    searchOn(searchText);
+  };
+  // console.log(searchText);
   return (
     <form>
       <div className="flex">
@@ -6,6 +16,8 @@ const SearchBar = () => {
           <input
             type="search"
             id="search-dropdown"
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
             className="z-20 block w-full bg-white px-4 py-2.5 pr-10 text-[#1C4336] placeholder:text-[#1C4336] focus:outline-none"
             placeholder="Search Book"
             required
@@ -13,6 +25,7 @@ const SearchBar = () => {
           <div className="absolute right-0 top-0 flex h-full items-center">
             <button
               type="submit"
+              onClick={handleClick}
               className="mr-1.5 flex items-center space-x-1.5 rounded-md rounded-e-lg bg-[#1C4336] px-4 py-2.5 text-sm text-white"
             >
               <svg

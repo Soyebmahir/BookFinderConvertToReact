@@ -7,6 +7,7 @@ export const books = [
     published: 2012,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "The Catcher in the Rye",
@@ -16,6 +17,7 @@ export const books = [
     published: 1951,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "To Kill a Mockingbird",
@@ -25,6 +27,7 @@ export const books = [
     published: 1960,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "1984",
@@ -34,6 +37,7 @@ export const books = [
     published: 1949,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "The Great Gatsby",
@@ -43,6 +47,7 @@ export const books = [
     published: 1925,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "Pride and Prejudice",
@@ -52,6 +57,7 @@ export const books = [
     published: 1813,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "The Hobbit",
@@ -61,6 +67,7 @@ export const books = [
     published: 1937,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "The Alchemist",
@@ -70,6 +77,7 @@ export const books = [
     published: 1988,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "Harry Potter and the Sorcerer's Stone",
@@ -79,6 +87,7 @@ export const books = [
     published: 1997,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
   {
     name: "The Da Vinci Code",
@@ -88,5 +97,6 @@ export const books = [
     published: 2003,
     image:
       "https://res.cloudinary.com/dxiygdbvg/image/upload/v1705511903/book_ahbzqk.png",
+    isFavourite: false,
   },
 ];
